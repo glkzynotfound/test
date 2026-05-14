@@ -484,10 +484,20 @@
 
 ..........................................................................
    
-  Po Prezimenu (abecedno) podaci.sort((a, b) => a[0].localeCompare(b[0], 'sr'));
+  Po Prezimenu (abecedno)
+  podaci.sort((a, b) => a[0].localeCompare(b[0], 'sr'));
 
   Ovako se moze sortirati kada su slova
 
+  ........................................................................
+
+  Kada je prosek iznad 4.5 da se oboji u crveno
+
+  const prosek = parseFloat(kolone[4]);
+if (prosek >= 4.5) {
+    tr.style.color = 'red';
+}
+  
   });</code></pre>
       </div>
     </div>
